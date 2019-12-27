@@ -382,12 +382,12 @@ h4 {
 }
 
 .vewbox2 .bannerbox {
-  position: relative;
-  bottom: 400px;
-  left: 700px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  position: relative;
+  bottom: 450px;
+  left: 700px;
 }
 
 .entrance {
@@ -408,6 +408,9 @@ h4 {
   position: relative;
   left: 700px;
   bottom: 750px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .lunch {
