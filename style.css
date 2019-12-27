@@ -189,16 +189,29 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 ul {
   list-style: none;
 }
 
+li {
+  font-size: 30px;
+}
+
 header nav {
   position: absolute;
   right: 0px;
+  margin-top: 50px;
+}
+
+header nav li:nth-child(6) {
+  margin-left: 70px;
+}
+
+header nav a {
+  color: #ffffff;
 }
 
 ul {
@@ -267,16 +280,24 @@ h3 {
 }
 
 .inside {
+  width: 1920px;
+  margin: auto;
+  height: 1500px;
+}
+
+.insidebox {
   width: 90%;
   margin: auto;
 }
 
-.insidetxt {
+.insidetxt1,
+.insidetxt2 {
   width: 60%;
   text-align: left;
 }
 
-.insidetxt a {
+.insidetxt1 a,
+.insidetxt2 a {
   background-color: #fffcef;
   line-height: 30px;
 }
@@ -299,6 +320,7 @@ h5 {
   font-size: 100px;
   font-family: Brush Script MT, Brush Script Std, cursive;
   padding: 20px 40px;
+  text-align: center;
 }
 
 table {
@@ -326,10 +348,15 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 1920px;
+  margin: auto;
+  padding: 100px 0px;
 }
 
 .compbox {
   width: 45%;
+  text-align: left;
+  padding-left: 350px;
 }
 
 .map {
@@ -341,16 +368,147 @@ h4 {
 }
 
 .recommend {
-  margin-top: 80px;
+  padding-top: 80px;
+  height: 1500px;
+  width: 1920px;
+  margin: auto;
 }
 
-.bath {
+.vewbox2 .resort {
   position: relative;
-  right: 440px;
+  /* right: 250px; */
+  left: 900px;
+  bottom: 200px;
 }
 
-.resort {
-  position: absolute;
-  right: 250px;
+.vewbox2 .bannerbox {
+  position: relative;
+  bottom: 400px;
+  left: 700px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.entrance {
+  position: relative;
+  bottom: 300px;
+}
+
+.vewbox3 .bannerbox {
+  position: relative;
+  bottom: 550px;
+  left: 450px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.vewbox4 .bannerbox {
+  position: relative;
+  left: 700px;
+  bottom: 750px;
+}
+
+.lunch {
+  position: relative;
+  left: 900px;
+  bottom: 500px;
+}
+
+.insidetxt1 {
+  position: relative;
+  left: 700px;
+  bottom: 200px;
+  background-color: #fffcef;
+  width: 1040px;
+}
+
+.insideimg {
+  position: relative;
+  bottom: 400px;
+  left: 600px;
+  background-color: #fffcef;
+  z-index: 10;
+}
+
+.insidetxt2 {
+  position: relative;
+  top: 200px;
+  z-index: 20;
+  background: #fffcef;
+  width: 1040px;
+}
+
+.compbox {
+  color: #0e83dd;
+}
+
+.compbox h4 {
+  font-size: 80px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1920px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.under-menu {
+  padding-left: 325px;
+}
+
+.under-menu li {
+  margin: 0px 25px;
+}
+
+.under-menu li a {
+  color: #76c7c2;
+}
+
+.sigh {
+  margin-left: 500px;
+  color: #0e83dd;
+}
+
+.practice a {
+  display: block;
+}
+
+.contact {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.phonevtn {
+  width: 400px;
+  height: 80px;
+  background-color: #76c7c2;
+}
+
+.phonevtn a {
+  line-height: 80px;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+}
+
+.contactvtn {
+  margin-top: 20px;
+  width: 400px;
+  height: 80px;
+  border: solid 2px #76c7c2;
+}
+
+.contactvtn a {
+  line-height: 80px;
+  text-align: center;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
